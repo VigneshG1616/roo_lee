@@ -138,6 +138,7 @@
     </div>
     <!-- Video Modal End -->
 
+  
 
     <!-- About Start -->
     <div class="container-fluid py-5" id="about">
@@ -161,8 +162,8 @@
                         </div> -->
                     </div> 
                 </div>
-                <div class="col-md-6 p-0" style="min-height: 400px;">
-                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover;">
+                <div class="col-md-6 p-0" style="min-height: 400px;display: flex;justify-content: center;align-items: center;background-color: #EDF5F7 !important;">
+                    <img class="" src="img/about-groom.jpg"style="object-fit: cover;width: 350px;height: 350px;border-radius: 50%;">
                 </div>
             </div>
             <div class="row m-0">
@@ -252,57 +253,9 @@
     <!-- Story End -->
 
 
-    <!-- Gallery Start -->
-    <div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
-        <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
-            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
-            <h1 class="font-secondary display-4 text-white">Our Photo Gallery</h1>
-            <i class="far fa-heart text-white"></i>
-        </div>
-        <div class="owl-carousel gallery-carousel">
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
-                <a href="img/gallery-1.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
-                <a href="img/gallery-2.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
-                <a href="img/gallery-3.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
-                <a href="img/gallery-4.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
-                <a href="img/gallery-5.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
-                <a href="img/gallery-6.jpg" data-lightbox="gallery">
-                    <i class="fa fa-2x fa-plus text-white"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-    <!-- Gallery End -->
-
 
     <!-- Event Start -->
-    <div class="container-fluid py-5" id="event">
+    <div class="container-fluid pt-5" id="event">
         <div class="container py-5">
             <div class="section-title position-relative text-center">
                 <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Event</h6>
@@ -311,13 +264,13 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
-                    <h5 class="font-weight-normal text-muted mb-3 pb-3">Clita ipsum aliquyam dolor diam dolores elitr nonumy. Rebum sea vero ipsum eirmod tempor kasd. Diam amet lorem erat eos sit lorem elitr justo</h5>
+                    <h5 class="font-weight-normal text-muted mb-3 pb-3">We seek your blessings and company as we celebrate this joyful occasion with love and happiness.</h5>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 border-right border-primary">
                     <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
-                        <img class="img-fluid mb-4" src="img/event-1.jpg" alt="">
+                        <img class="img-fluid mb-4" src="img/the_engagement.jpg" alt="Enagagement" style="width: 300px;height: 200px">
                         <h4 class="mb-3">The Enagagement</h4>
                         <p class="mb-2 font-weight-bold">17 Feb 2024, Saturday</p>
                         <p class="mb-0">07:00 PM Onwards</p>
@@ -325,16 +278,40 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-center text-md-left ml-md-3">
-                        <img class="img-fluid mb-4" src="img/event-2.jpg" alt="">
+                        <img class="img-fluid mb-4" src="img/the_reception.jpg" alt="Reception"  style="width: 300px;height: 200px">
                         <h4 class="mb-3">The Reception</h4>
                         <p class="mb-2 font-weight-bold" >18 Feb 2024, Sunday</p>
                         <p class="mb-0">12:15 PM Onwards</p>
                     </div>
                 </div>
+                <!-- Timer Start -->
+                <div class="container-fluid pt-5" id="about">
+                  <div class="container ">
+                      <div class="section-title position-relative text-center">
+                         
+                          <h1 class="font-secondary ">Countdown</h1>
+                          <i class="far fa-heart text-dark"></i>
+                      </div>
+                      <div class="row justify-content-center">
+                  <div class="col-md-8 col-md-offset-2 text-center animate-box" >
+                    <p class="countdown font-secondary display-4" style="width: fit-content;margin: 0 auto;padding: 10px 25px;color:#E47A2E;display: flex;justify-content: center;column-gap: 25px;border-radius: 6px;box-shadow: 0px 0px 11px 0px #e47a2e8f;">
+                      <span id="days" style="display: flex;flex-direction: column;"></span>
+                      <span id="hours" style="display: flex;flex-direction: column;"></span>
+                      <span id="minutes" style="display: flex;flex-direction: column;"></span>
+                      <span id="seconds" style="display: flex;flex-direction: column;"></span>
+                    </p>
+                  </div>
+                </div>
+                </div>
+                </div>
+              <!-- Timer Start -->
             </div>
         </div>
+
+
     </div>
     <!-- Event End -->
+    
 
       <!--  QR Start -->
       <div class="container-fluid py-5" id="QR">
@@ -354,6 +331,53 @@
     </div>
     <!-- QR End -->
 
+<!-- Gallery Start -->
+<div class="container-fluid bg-gallery" id="gallery" style="padding: 120px 0; margin: 90px 0;">
+    <div class="section-title position-relative text-center" style="margin-bottom: 120px;">
+        <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Gallery</h6>
+        <h1 class="font-secondary display-4 text-white">Our Photo Gallery</h1>
+        <i class="far fa-heart text-white"></i>
+    </div>
+    <div class="owl-carousel gallery-carousel">
+        <div class="gallery-item">
+            <img class="img-fluid w-100" src="img/gallery-1.jpg" alt="">
+            <a href="img/gallery-1.jpg" data-lightbox="gallery">
+                <i class="fa fa-2x fa-plus text-white"></i>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="img-fluid w-100" src="img/gallery-2.jpg" alt="">
+            <a href="img/gallery-2.jpg" data-lightbox="gallery">
+                <i class="fa fa-2x fa-plus text-white"></i>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="img-fluid w-100" src="img/gallery-3.jpg" alt="">
+            <a href="img/gallery-3.jpg" data-lightbox="gallery">
+                <i class="fa fa-2x fa-plus text-white"></i>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="img-fluid w-100" src="img/gallery-4.jpg" alt="">
+            <a href="img/gallery-4.jpg" data-lightbox="gallery">
+                <i class="fa fa-2x fa-plus text-white"></i>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="img-fluid w-100" src="img/gallery-5.jpg" alt="">
+            <a href="img/gallery-5.jpg" data-lightbox="gallery">
+                <i class="fa fa-2x fa-plus text-white"></i>
+            </a>
+        </div>
+        <div class="gallery-item">
+            <img class="img-fluid w-100" src="img/gallery-6.jpg" alt="">
+            <a href="img/gallery-6.jpg" data-lightbox="gallery">
+                <i class="fa fa-2x fa-plus text-white"></i>
+            </a>
+        </div>
+    </div>
+</div>
+<!-- Gallery End -->
 
     <!-- Friends & Family Start -->
     <div class="container-fluid py-5" id="family">
@@ -522,6 +546,8 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/scripts.min.js"></script>
+
 </body>
 
 </html>
