@@ -1847,6 +1847,11 @@ pre code {
   .table-responsive-lg > .table-bordered {
     border: 0;
   }
+  .about-groom, .about-bride {
+    width: 300px !important;
+    height: 300px !important;
+    display: inline-block;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -9772,5 +9777,25 @@ a.text-dark:hover, a.text-dark:focus {
 @media (max-width: 650px) {
   .image-qr{
     width: 90%;
+  }
+}
+
+@media (max-width: 397px) {
+  .carousel-font-lr{
+    font-size: 2rem;
+  }
+  .carousel-font-marriage{
+    padding: 10px !important;
+    font-size: 12px !important;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+  .about-groom, .about-bride {
+    width: 280px !important;
+    height: 280px !important;
+    display: inline-block;
+  }
+  .contact-details{
+    font-size: 18px !important;
   }
 }
