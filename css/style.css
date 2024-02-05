@@ -9776,7 +9776,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (max-width: 650px) {
   .image-qr{
-    width: 90%;
+    width: 70vw;
   }
 }
 

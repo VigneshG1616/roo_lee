@@ -6,3 +6,5 @@ window.PHOTO_LIST = [
      "five",
      "six"
 ]
+
+// [...Array(12)].map((_,i)=> )
