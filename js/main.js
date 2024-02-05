@@ -85,8 +85,11 @@
 
     // Gallery carousel
     $(".gallery-carousel").owlCarousel({
-        autoplay: false,
+        autoplay: true,
         smartSpeed: 1500,
+        autoPlaySpeed: 1000,
+        autoPlayTimeout: 1000,
+        autoplayHoverPause: true,
         dots: false,
         loop: true,
         nav : true,
@@ -115,3 +118,18 @@
     
 })(jQuery);
 
+var block = false;
+$(".owl-item").mouseenter(function(){
+    if(!block) {
+     block = true;
+     owl.trigger('stop.owl.autoplay')
+     block = false;
+     }
+   });
+$(".owl-item").mouseleave(function(){
+    if(!block) {
+     block = true;
+     owl.trigger('play.owl.autoplay',[1000])
+     block = false;
+    }
+   });
